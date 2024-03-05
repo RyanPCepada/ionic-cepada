@@ -1,5 +1,5 @@
 import './ExploreContainer.css';
-
+<img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
 interface ContainerProps { }
 
 const ExploreContainer: React.FC<ContainerProps> = () => {
