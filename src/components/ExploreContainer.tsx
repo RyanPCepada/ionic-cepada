@@ -1,5 +1,6 @@
 import './ExploreContainer.css';
 import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle } from '@ionic/react';
+
 interface ContainerProps { }
 
 const ExploreContainer: React.FC<ContainerProps> = () => {
@@ -7,10 +8,10 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
     <IonCard>
       <IonCardHeader>
         <IonCardTitle>Arsy Arts</IonCardTitle>
-        <IonCardSubtitle>Charcoal portrait</IonCardSubtitle>
+        <IonCardSubtitle>Charcoal Portrait</IonCardSubtitle>
       </IonCardHeader>
 
-      <IonCardContent>Thois is my first ionic Application</IonCardContent>
+      <IonCardContent>This Is My First Ionic Application</IonCardContent>
     </IonCard>
   );
 };
